@@ -17,5 +17,5 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Firebase
 
-You will need to get the google-services.json file from [Firebase] (https://console.firebase.google.com/project/farmsmart-a0707/settings/general/android:amido.farmsmart)
+You will need to get the google-services.json file from [Firebase](https://console.firebase.google.com/project/farmsmart-a0707/settings/general/android:amido.farmsmart)
 Copy the file to /android/app/ folder
