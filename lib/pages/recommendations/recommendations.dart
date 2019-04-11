@@ -11,7 +11,7 @@ class RecommendationsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     RecommendationsBloc recommendationsBloc = BlocProvider.of(context);
 
-    assert(recommendationsBloc != null, 'RecommendationsBloc is expected');
+    // assert(recommendationsBloc != null, 'RecommendationsBloc is expected');
 
     return Scaffold(
       appBar: AppBar(

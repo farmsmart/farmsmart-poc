@@ -9,7 +9,7 @@ import 'package:farmsmart/pages/crops/crop_view.dart';
 class CropsPage extends StatelessWidget {
 
   String _formatRating(double score) {
-    if (score == null) {
+    if (score == null || score == 0) {
       return '';
     } else {
       return score.toStringAsPrecision(2) + ' %';

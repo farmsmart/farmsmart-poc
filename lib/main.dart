@@ -17,10 +17,22 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
+//      routes: {
+//        '/test' : (context) {
+//          Navigator.pushNamed(context, '/recommendations');
+//          return Text('Hello World');
+//        },
+//        '/' : (context) {
+//          return RecommendationsBlocProvider(
+//              bloc: RecommendationsBloc(),
+//              widget: RecommendationsScreen()
+//          );
+//        }
+//      },
       home: RecommendationsBlocProvider(
-        bloc: RecommendationsBloc(),
-        widget: RecommendationsScreen()
-      ),
+          bloc: RecommendationsBloc(),
+          widget: RecommendationsScreen()
+      )
     );
   }
 }
