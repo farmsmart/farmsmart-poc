@@ -19,3 +19,25 @@ samples, guidance on mobile development, and a full API reference.
 
 You will need to get the google-services.json file from [Firebase](https://console.firebase.google.com/project/farmsmart-a0707/settings/general/android:amido.farmsmart)
 Copy the file to /android/app/ folder
+
+
+## Generating a release APK for upload to Google Play
+
+Create local.properties and key.properties in /android/ folder.
+The key properties should contain the following:
+```
+storePassword=<yourstorepassword>
+keyPassword=<yourkeypassword>
+keyAlias=<yourkey>
+storeFile=<pathtoyourkeystorefile>.jks
+```
+
+Run the following command to generate an apk
+```
+flutter build apk
+```
+
+Generated APK is found in
+```
+build\app\outputs\apk\release\app-release.apk
+```
