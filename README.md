@@ -32,9 +32,10 @@ keyAlias=<yourkey>
 storeFile=<pathtoyourkeystorefile>.jks
 ```
 
-Run the following command to generate an apk
+Run the following command to generate an apk. Note flutter build name and build number determines the 
+google play version
 ```
-flutter build apk
+flutter build apk --build-name=99-RELEASE --build-number=99
 ```
 
 Generated APK is found in
